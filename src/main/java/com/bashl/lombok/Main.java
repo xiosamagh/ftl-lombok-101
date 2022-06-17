@@ -13,6 +13,10 @@ public class Main {
         System.out.println(valExample.example());
 
         valExample.example2();
+
+
+        VarExample varExample = new VarExample();
+        System.out.println(varExample.example());
     }
 
 
