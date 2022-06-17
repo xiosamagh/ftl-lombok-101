@@ -17,6 +17,12 @@ public class Main {
 
         VarExample varExample = new VarExample();
         System.out.println(varExample.example());
+
+        Person person = new Person();
+        person.setName("Ivan");
+        NonNullExample nonNullExample = new NonNullExample(person);
+
+        System.out.println(nonNullExample.getName());
     }
 
 
