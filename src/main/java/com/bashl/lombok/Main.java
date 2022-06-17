@@ -24,7 +24,13 @@ public class Main {
 
         System.out.println(nonNullExample.getName());
 
+        GetterSetterExample getterSetterExample = new GetterSetterExample();
 
+        getterSetterExample.setAge(25);
+        getterSetterExample.setAverageGrade(2.11);
+        getterSetterExample.setName("Dota");
+
+        System.out.println(getterSetterExample);
     }
 
 
