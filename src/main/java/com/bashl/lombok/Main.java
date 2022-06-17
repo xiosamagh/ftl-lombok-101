@@ -31,6 +31,10 @@ public class Main {
         getterSetterExample.setName("Dota");
 
         System.out.println(getterSetterExample);
+
+        ToStringExample toStringExample = new ToStringExample();
+
+        System.out.println(toStringExample.toString());
     }
 
 
