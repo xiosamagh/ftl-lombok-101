@@ -23,6 +23,8 @@ public class Main {
         NonNullExample nonNullExample = new NonNullExample(person);
 
         System.out.println(nonNullExample.getName());
+
+
     }
 
 
