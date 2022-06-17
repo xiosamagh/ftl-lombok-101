@@ -35,6 +35,10 @@ public class Main {
         ToStringExample toStringExample = new ToStringExample();
 
         System.out.println(toStringExample.toString());
+
+        EqualsAndHashCodeExample equalsAndHashCodeExample = new EqualsAndHashCodeExample();
+        equalsAndHashCodeExample.setName("dwdq");
+        System.out.println(equalsAndHashCodeExample.hashCode());
     }
 
 
