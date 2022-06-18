@@ -1,8 +1,8 @@
 package com.bashl.lombok;
 
 
-
-
+import java.util.HashSet;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -65,6 +65,19 @@ public class Main {
 
         System.out.println(valueExample);
         System.out.println(valueExample.getAge());
+
+        Set<String> set1 = new HashSet<>();
+        BuilderExample bld1 = new BuilderExample(12,"bld1",25,set1);
+
+        System.out.println(bld1);
+
+        BuilderExample bld2 = BuilderExample.builder().created(125).name("bld2").age(125).build();
+
+        System.out.println(bld2);
+
+
+        
+
 
 
     }
