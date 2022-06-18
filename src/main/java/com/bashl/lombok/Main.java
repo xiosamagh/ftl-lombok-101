@@ -90,7 +90,7 @@ public class Main {
         System.out.println(withExample1);
 
         GetterLazyExample getterLazyExample = new GetterLazyExample();
-        System.out.println(Arrays.toString(getterLazyExample.getCached()));
+//        System.out.println(Arrays.toString(getterLazyExample.getCached()));
 
 
 
