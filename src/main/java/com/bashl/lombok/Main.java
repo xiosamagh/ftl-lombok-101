@@ -58,7 +58,13 @@ public class Main {
 
         DataExample.Exercise dt2 = DataExample.Exercise.of("ARTEM", 3.1);
 
-        System.out.println(dt1.hashCode());
+
+
+
+        ValueExample valueExample = new ValueExample("cons",25,2.3,new String[]{"112","113"});
+
+        System.out.println(valueExample);
+        System.out.println(valueExample.getAge());
 
 
     }
