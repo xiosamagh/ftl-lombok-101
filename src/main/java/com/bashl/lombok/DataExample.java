@@ -18,11 +18,11 @@ public class DataExample {
         private final String name;
         private final T value;
 
-        @lombok.experimental.Tolerate
-        public Exercise(String name, T value) {
-            this.name = name;
-            this.value = value;
-        }
+//        @lombok.experimental.Tolerate
+//        public Exercise(String name, T value) {
+//            this.name = name;
+//            this.value = value;
+//        }
     }
 
 
