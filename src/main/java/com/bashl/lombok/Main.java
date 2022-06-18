@@ -39,6 +39,11 @@ public class Main {
         EqualsAndHashCodeExample equalsAndHashCodeExample = new EqualsAndHashCodeExample();
         equalsAndHashCodeExample.setName("dwdq");
         System.out.println(equalsAndHashCodeExample.hashCode());
+
+
+        ConstructorExample constructorExample = new ConstructorExample(1,2,"dddd");
+
+        ConstructorExample.NoArgsExample crs = new ConstructorExample.NoArgsExample();
     }
 
 
