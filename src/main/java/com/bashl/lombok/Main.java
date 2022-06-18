@@ -1,6 +1,7 @@
 package com.bashl.lombok;
 
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -87,6 +88,9 @@ public class Main {
         System.out.println(withExample);
 
         System.out.println(withExample1);
+
+        GetterLazyExample getterLazyExample = new GetterLazyExample();
+        System.out.println(Arrays.toString(getterLazyExample.getCached()));
 
 
 
