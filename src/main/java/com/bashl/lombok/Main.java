@@ -76,7 +76,15 @@ public class Main {
         System.out.println(bld2);
 
 
-        
+        SynchronizedExample synchronizedExample = new SynchronizedExample();
+
+        System.out.println(synchronizedExample.answerToLife());
+        synchronizedExample.foo();
+        SynchronizedExample.hello();
+
+
+
+
 
 
 
