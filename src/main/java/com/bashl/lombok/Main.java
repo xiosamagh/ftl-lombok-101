@@ -44,6 +44,23 @@ public class Main {
         ConstructorExample constructorExample = new ConstructorExample(1,2,"dddd");
 
         ConstructorExample.NoArgsExample crs = new ConstructorExample.NoArgsExample();
+
+
+        DataExample dataExample = DataExample.offf("ddw",2.5);
+
+        DataExample.Exercise dt = DataExample.Exercise.of("IVAN", "DWQ");
+
+        dataExample.setAge(254);
+
+        System.out.println(dt);
+
+        DataExample.Exercise dt1 = DataExample.Exercise.of("DW",2.4);
+
+        DataExample.Exercise dt2 = DataExample.Exercise.of("ARTEM", 3.1);
+
+        System.out.println(dt1.hashCode());
+
+
     }
 
 
