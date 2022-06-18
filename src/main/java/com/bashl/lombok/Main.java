@@ -82,6 +82,12 @@ public class Main {
         synchronizedExample.foo();
         SynchronizedExample.hello();
 
+        WithExample withExample = new WithExample("name", 12);
+        WithExample withExample1 = withExample.withName("scp").withAge(155);
+        System.out.println(withExample);
+
+        System.out.println(withExample1);
+
 
 
 
